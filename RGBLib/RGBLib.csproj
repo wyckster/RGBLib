@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>RGBLib_Chad_Faragher</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>Chad Faragher</Authors>
+    <Company>Chad Faragher</Company>
+    <Description>RGB Library</Description>
+    <Copyright>Copyright (c) 2020 Chad Faragher</Copyright>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <RepositoryUrl>https://github.com/wyckster/RGBLib.git</RepositoryUrl>
+    <PackageTags>RGB RGBA SRGB Color Colour Linear Gamma Graycode</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <ApplicationIcon />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
